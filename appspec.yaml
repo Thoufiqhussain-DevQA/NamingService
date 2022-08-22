@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:eu-west-2:860061945305:task-definition/888336-HappyReturnsTask:3"
         LoadBalancerInfo:
-          ContainerName: "naming"
+          ContainerName: "namingservice"
           ContainerPort: "9002"
         PlatformVersion: "LATEST"
